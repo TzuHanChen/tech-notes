@@ -105,6 +105,8 @@ fetch(myRequest)
 
 ## 基本寫法
 
+綜合上述三個步驟的最小可行程式碼：
+
 ```js
 // common function syntax
 fetch('data.json')
@@ -120,9 +122,5 @@ fetch('data.json')
 	.then((response) => response.json())
 	.then((data) => console.log(data));
 ```
-
-<!-- ## 完整範例
-
-把上述程式碼整合成可執行的範例：[取得資料](/get-data) -->
 
 > :ToCPrevNext

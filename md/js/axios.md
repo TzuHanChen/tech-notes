@@ -61,7 +61,9 @@ axios.post('data.json',
 )
 ```
 
-## 第二步：接收伺服器回傳的資料 (response)、第三步：取得回傳的資料 (data)
+## 第二步：接收伺服器回傳的資料 (response)、
+
+## 第三步：取得回傳的資料 (data)
 
 根據需要使用下列方法
 
@@ -95,6 +97,8 @@ axios.post('data.json',
 
 ## 基本寫法
 
+綜合上述三個步驟的最小可行程式碼：
+
 ```js
 const axios = require('axios');
 
@@ -108,9 +112,5 @@ axios.get('data.json')
 axios.get('data.json')
 	.then((response) => console.log(response));
 ```
-
-<!-- ## 完整範例
-
-把上述程式碼整合成可執行的範例：[取得資料](/get-data) -->
 
 > :ToCPrevNext

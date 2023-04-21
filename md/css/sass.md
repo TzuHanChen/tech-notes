@@ -34,7 +34,7 @@ SASS 有以下兩種寫法
 
 ## 編譯 Preprocessing
 
-編譯 SASS 檔案的工具有以下幾種 :
+編譯 SASS 檔案的工具有以下幾種：
 
 * 專門編譯 SASS 的軟體，例如 [prepros](https://prepros.io/)
 * 前端任務 / 打包工具，例如 [gulp](https://gulpjs.com/), [webpack](https://webpack.js.org/)
@@ -43,7 +43,7 @@ SASS 有以下兩種寫法
 
 ## 註解 Comments
 
-註解有兩種 :
+註解有兩種：
 
 ```scss
 /* 這一行文字 會 出現在編譯後產生的 CSS 檔案中 */
@@ -80,7 +80,7 @@ SASS 有以下兩種寫法
 
 在編譯之後 & 符號的位置會換成上層的選擇器，可應用在撰寫偽類與偽元素的設定。
 
-舉例如下 :
+舉例如下：
 
 > :Tabs
 > > :Tab title=SCSS
@@ -103,13 +103,4 @@ SASS 有以下兩種寫法
 > > }
 > > ```
 
----
-
-> :Tabs
-> > :Tab title=SCSS
-> > ```scss
-> > ```
->
-> > :Tab title=CSS
-> > ```css
-> > ```
+> :ToCPrevNext

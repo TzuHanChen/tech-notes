@@ -11,17 +11,18 @@
 
 > :Collapse label=CSS 基礎
 >
-> [動畫](/css/animation)
-<!-- > [Background](/css/background)
 > [權重](/css/specificity)
-> [Flex](/css/flex)
-> [RWD](/css/rwd) -->
+> [RWD](/css/rwd)
+> [動畫](/css/animation)
+> [設計模式](/css/design-pattern)
 <!-- > [動畫練習](/css/animation-practice) -->
+<!-- > [Background](/css/background) -->
+<!-- > [Flex](/css/flex) -->
 
 > :Collapse label=JS 基礎
 >
 > [Ajax](/js/ajax)
-> [fetch](/js/fetch)
+> [Fetch](/js/fetch)
 > [Axios](/js/axios)
 
 > :Collapse label=Git & GitHub
@@ -40,9 +41,12 @@
 > [Git 清空工作目錄](/git/clean)
 > [Git 還原](/git/restore)
 
-<!-- > :Collapse label=CSS 進階
+> :Collapse label=CSS 進階
 >
-> [SASS](/css/sass) -->
+> [SASS](/css/sass)
+> [SASS 變數](/css/sass-variable)
+> [SASS 混合](/css/sass-mixin)
+<!-- > [SASS 模組](/css/sass-module) -->
 
 <!-- > :Collapse label=JS 進階
 >
@@ -52,7 +56,7 @@
 >
 > 整理中 -->
 
-> :Collapse label=Nodejs
+> :Collapse label=Node.js
 >
 > [Node.js](/nodejs/nodejs)
 > [NPM](/nodejs/npm)

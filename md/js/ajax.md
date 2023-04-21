@@ -113,6 +113,8 @@ const data = JSON.parse(httpRequest.responseText);
 
 ## 基本寫法
 
+綜合上述三個步驟的最小可行程式碼：
+
 ```js
 let xhr = new XMLHttpRequest();
 xhr.overrideMimeType('application/json');
@@ -131,9 +133,5 @@ function ajaxResponseHandler() {
     }
 }
 ```
-
-<!-- ## 完整範例
-
-把上述程式碼整合成可執行的範例：[取得資料](/get-data) -->
 
 > :ToCPrevNext
